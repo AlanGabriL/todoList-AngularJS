@@ -1,0 +1,29 @@
+* {
+  transition: 0.2s;
+}
+.main {
+  margin: 0 auto;
+  width: 700px;
+}
+h2,
+h3 {
+  text-align: center;
+  margin: 30px 0;
+}
+h3 {
+  color: gray;
+}
+.closeTask {
+  background-color: rgb(230, 230, 230);
+}
+.addMore {
+  display: flex;
+  gap: 20px;
+}
+.add,
+input {
+  margin-top: 20px;
+}
+.btn:hover {
+  transition: 0.3s;
+}
